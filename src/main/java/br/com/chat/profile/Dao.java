@@ -32,12 +32,12 @@ public class Dao {
                     .withCredentials(new AWSStaticCredentialsProvider(new AWSCredentials() {
                         @Override
                         public String getAWSAccessKeyId() {
-                            return "AKIAJPX2YAYDZHGJMBAA";
+                            return "XXX";
                         }
 
                         @Override
                         public String getAWSSecretKey() {
-                            return "3alWr9I9Fp53/VwDVNRKDRE81sMoDGwTbDrGYVH3";
+                            return "XXX";
                         }
                     }))
                     .build();
